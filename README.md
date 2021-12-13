@@ -6,6 +6,6 @@ of applications
 
 Examples:
 * [Nodejs](nodejs-app/)
-* Rails
+* [Rails](rails-app/)
 * PHP (Wordpress)
 * Docker Compose
