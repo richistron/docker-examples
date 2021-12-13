@@ -81,7 +81,7 @@ test:
 #
 production:
   <<: *default
-  database: <%= ENV.fetch("POSTGRES_DB") %>
-  password: <%= ENV.fetch("POSTGRES_PASSWORD") %>
-  host: <%= ENV.fetch("DB_HOST") %>
-  username: <%= ENV.fetch("POSTGRES_USER") %>
+  database: <%= ENV.fetch("POSTGRES_DB") { "rails_app_test" }%>
+  password: <%= ENV.fetch("POSTGRES_PASSWORD") { "" } %>
+  host: <%= ENV.fetch("DB_HOST") { "localhost" } %>
+  username: <%= ENV.fetch("POSTGRES_USER") { "postgres" } %>

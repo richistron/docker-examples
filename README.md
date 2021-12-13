@@ -7,5 +7,5 @@ of applications
 Examples:
 * [Nodejs](nodejs-app/)
 * [Rails](rails-app/)
+* [Docker Compose](tooling)
 * PHP (Wordpress)
-* Docker Compose
