@@ -5,7 +5,7 @@ This is a simple repo created to show how you can dockerized different types
 of applications
 
 Examples:
-* Nodejs
+* [Nodejs][nodejs-app/]
 * Rails
 * PHP (Wordpress)
 * Docker Compose
